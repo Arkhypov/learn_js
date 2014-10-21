@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index_trn.html" afterPath="$PROJECT_DIR$/Index_trn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/actions.js" afterPath="$PROJECT_DIR$/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tutorial.js" afterPath="$PROJECT_DIR$/js/tutorial.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tutorial_1.js" afterPath="$PROJECT_DIR$/js/tutorial_1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -19,7 +16,7 @@
     <file path="/a.dummy" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1396025577103" ignored="false" />
     <file path="/tutorial.js" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1412192311026" ignored="false" />
     <file path="/screen.css" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1412218580839" ignored="false" />
-    <file path="/Dummy.txt" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1413860122216" ignored="false" />
+    <file path="/Dummy.txt" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1413923804174" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +41,7 @@
       <file leaf-file-name="Index_trn.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Index_trn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="25" selection-start="943" selection-end="943" vertical-scroll-proportion="-7.8461537">
+            <state line="13" column="25" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +68,7 @@
       <file leaf-file-name="tutorial_1.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/tutorial_1.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="622" column="25" selection-start="12891" selection-end="12891" vertical-scroll-proportion="0.34172663">
+            <state line="696" column="28" selection-start="15205" selection-end="15205" vertical-scroll-proportion="0.38848922">
               <folding />
             </state>
           </provider>
@@ -100,8 +97,8 @@
         <option value="$PROJECT_DIR$/js/tutorial.js" />
         <option value="D:/работа_Sparkle_design/Верстка сайтов/Bekker/Верстка/bekker-master1_5/css/screen.css" />
         <option value="$PROJECT_DIR$/js/actions.js" />
-        <option value="$PROJECT_DIR$/js/tutorial_1.js" />
         <option value="$PROJECT_DIR$/Index_trn.html" />
+        <option value="$PROJECT_DIR$/js/tutorial_1.js" />
       </list>
     </option>
   </component>
@@ -145,44 +142,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Learn_JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -192,10 +151,10 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
-    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -250,6 +209,7 @@
     <frame x="-8" y="-8" width="1378" height="754" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944155" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -305,12 +265,12 @@
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="true" />
     <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -329,6 +289,13 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/tutorial_1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="622" column="25" selection-start="12891" selection-end="12891" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/tutorial_1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="509" column="36" selection-start="10564" selection-end="10564" vertical-scroll-proportion="0.0">
@@ -374,11 +341,6 @@
         <state line="20" column="13" selection-start="533" selection-end="533" vertical-scroll-proportion="0.44815466" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Html layout/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://D:/работа_Sparkle_design/Верстка сайтов/Promotion/Верстка/1promotion.ru/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -401,7 +363,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index_trn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="25" selection-start="943" selection-end="943" vertical-scroll-proportion="-7.8461537">
+        <state line="13" column="25" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -422,7 +384,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/tutorial_1.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="622" column="25" selection-start="12891" selection-end="12891" vertical-scroll-proportion="0.34172663">
+        <state line="696" column="28" selection-start="15205" selection-end="15205" vertical-scroll-proportion="0.38848922">
           <folding />
         </state>
       </provider>

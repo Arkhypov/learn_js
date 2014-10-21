@@ -694,7 +694,7 @@ function heading(){
                                                                       //declare please substr(3,6)
                                                                      //excellent presentation of game from codeacademy
 
-
+    //my comment
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
