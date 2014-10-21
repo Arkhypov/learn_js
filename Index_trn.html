@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title></title>
+    <noscript>If you see this message, so turn off show javascripts in your own browser</noscript>
+    <!-- <script type="text/javascript" src="js/tutorial.js"> </script> -->  <!-- this is hidden javascript -->
+    <!-- <script type="text/javascript" src="js/clock.js"> </script> -->   <!-- this is hidden javascript, show how work the clock.js-->
+    <!-- <script type ="text/javascript" src="js/actions.js"></script> -->    <!--this is real script (обработчик ссылок) -->
+    <!-- <script type ="text/javascript" src="js/rollover.js"></script> -->  <!--this is script of rollover -->
+     <script type ="text/javascript" src="js/tutorial_1.js"></script>      <!-- learn.javascript.com -->
+    <!-- <script>window.parent.location.href='http://hacker.com';</script>  --> <!-- make redirection to hacker.com -->
+
+</head>
+
+<body>
+<!-- <script type ="text/javascript" src="js/tutorial.js"></script> -->   <!--this is real script -->
+
+<!--simple creation of clock in javascript -->
+
+<!--
+<div id="clock">
+    <div id="Date" style="text-align: center;"></div>
+    <div id="Time" style="text-align: center;">4545</div>
+</div>
+-->
+
+
+<!--  realisation of table-->
+<!--
+<div id="wrapper" style="width: 100px">
+<div id="1" style="width: 50px; height: 50px; background-color: green;float:right">
+    <p>1</p>
+    </div>
+<div id="2" style="width: 50px; height: 50px; background-color: red; float:left">
+    <p>1</p>
+</div>
+<div id="3" style="width: 50px; height: 50px; background-color: black;float:right">
+    <p>1</p>
+</div>
+<div id="4" style="width: 50px; height: 50px; background-color: brown;float:left">
+    <p>1</p>
+</div>
+</div>
+-->
+
+
+
+<!-- типы реализации обработчика событий -->
+
+<!--
+
+ <ul>
+ <li>
+        <a id="link_1" onclick="handler()" href="#">one</a>
+     </li>
+     <li>
+         <a id="link_2" href="#">two</a>
+     </li>
+     <li>
+         <a id="link_3" href="#">three</a>
+     </li>
+     <script type="text/javascript">
+         document.getElementById('link_2').onclick = handler;
+         document.getElementById('link_3').addEventListener('click',handler,false);
+         </script>
+ </ul>
+-->
+
+<!--realization of initLink-->
+
+
+<!--
+<ul>
+    <li>
+        <a href="http://google.ru">one</a>
+    </li>
+    <li>
+        <a href="#">two</a>
+    </li>
+    <li>
+        <a href="#">three</a>
+    </li>
+-->
+
+<!-- realization of rollover  -->
+
+<!--
+<img id="roll" src="./img/straight.png">
+-->
+
+<!-- realization of adding DOM element -->
+
+
+
+<!--<form>
+<label>please input new url
+    <br>
+    <input type="text"  size="45" id="newUrl">
+</label>
+<br>
+    <input type="button" value="add" id="add" >
+    <input type="button" value="delete" id="delete" >
+</form>
+
+<div id="links">
+
+</div>-->
+                                          <!--Here will be examples of code from android app. Tutorial_1.js included.-->
+                                          <!--Example of greeting according to date of today-->
+                                          <!--Example recognizing day of today with using case statement-->
+
+
+<div id="exm">
+   <button type="button" onclick="advice()">Check date</button>
+   <button type="button" onclick="day()" style="float:left">Check day</button>
+   <button type="button" onclick="viewMess()" style="float:left">View message</button>
+   <button type="button" onclick="message()" style="float:left">View message catch</button>
+   <button type="button" onclick="mes()" style="float:left">View message catch with confirmation</button>
+   <button type="button" onclick="num()" style="float:left">output numbers</button>
+   <button type="button" onclick="heading()" style="float:left">click to output headers</button>
+   <p id="day"> </p>
+      <p id="dem"> </p>
+    <p id="num"> </p>
+    <p id="head"> </p>
+    <div id="copy" style="float:right">                                                              <!--Example how to copy text&ndash-->
+    <input type="text" style="color: #000000; background-color: gray" id="field1" value="Hello World">
+    <input type="text" style="color: #000000; background-color: gray" id="field2" value="">
+    <button type="button" style="background-color: cyan" onclick="document.getElementById('field2').value = document.getElementById('field1').value">click</button>
+
+    </div>                                                                                  <!--Example of onerror form-->
+   <script>
+        var onerror = handleErr;
+        var txt= "";
+        function handleErr(msg,url,l){
+               txt="There was an error on this page";
+               txt+="Error:" + msg+"\n";
+               txt+="Line" + url+"\n\n";
+               txt+="click ok to continue";
+            alert(txt);
+            return true;
+        }
+        function viewMess(){
+        alertMe('message',10);
+        }
+   </script>
+                                                                                         <!--Example of onerror form with try to catch&ndash;&gt;-->
+   <script>
+        var txt="";
+        function message(){
+            try{
+                alertME('message',10);
+            }
+            catch (err){
+                txt="There was an error on this page";
+                txt+="Error description " + err.message+"\n\n";
+                txt+="click ok to continue";
+                alert(txt);
+            }
+        }
+   </script>
+    <script>
+        var txt="";
+        function mes(){
+          try {
+              alerddt('message',10);
+          }
+                                                                                        <!--Example of onerror form with try to catch with confirmation&ndash;-->
+            catch(err) {
+                txt="There was an error on this page";
+                txt+="Click ok to continue viewing this page";
+                txt+="or click cancel to view this message again";
+            }
+            if (!confirm(txt)){
+
+            }
+        }
+        </script>
+
+</div>
+
+
+
+
+
+
+
+
+
+                                                        <!-- here I will perform internal scripts from the resource javascript.info -->
+                                                            <!-- This script will give you access to all data in ul -->
+<!--
+<div> Something here</div>
+<ul>
+    <li> text </li>
+    <li> 1 </li>
+    <li> </li>
+    </ul>
+
+<script>
+    function go(){
+        /*for (var i=0; i<children.length; i++ ){
+            var children= document.body.children;
+            if (childNodes[i].nodeType !=1) continue
+            alert (children[i]);
+            *//*alert (document.body.children[0]);*//*      *//*this is return first element of html*//*
+            *//*alert (document.body.children[1].children[1]);*//*   *//*this is return first child element of html*//*
+        }*/
+
+
+                                                                    /*the description how works child.childNodes*/
+        var childNodes = document.body.childNodes
+        for(var i=0; i<childNodes.length; i++) {
+            if (childNodes[i].nodeType != 1) continue
+            alert(childNodes[i])
+        }
+        }
+</script>
+<button onclick="go()" style="width: 100px"> GO!</button>
+-->
+                                                                            <!--The description of how works innerHTML:-->
+
+
+<!--<div> Something here</div>
+            <ul>
+            <li> text </li>
+            <li> 1 </li>
+            <li>
+            <p>Something there interesting</p>
+            </li>
+            </ul>
+
+            <script>
+    alert(document.body.innerHTML);     //read current content
+    document.body.innerHTML = '<p>something here</p><p>here something too!</p>';   //rewrite current content
+                                                                        /* In IE, innerHTML is read-only for all table tags except TD.*/
+    document.body.innerHTML += '<p>Hi </p>';                            /* to append innerHTML use '+=' because it support just one innerHTML */
+    document.body.innerHTML += "How you doing?"
+    </script>-->
+
+                                                                            <!--here will be something like comment like comment-->
+
+
+ <!--<input type="text" value="Enter your comment"  id="txt" onblur="if (this.value == '') {this.value = 'Enter your comment'}" onfocus="if (this.value == 'Enter your comment') {this.value = ''}" cols="25" rows="5">
+
+    <br>
+    <input type="submit" value="Submit" onclick="add()" />
+
+<div id="com">
+</div>-->
+
+
+                                                                            <!--example of using objects in document.body-->
+<!--    <script>
+document.body.MyData={
+    name:'Dasha',
+    surname:'Lashkina',
+    age:25
+};
+    alert(document.body.MyData.surname);        //Lashkina
+document.body.SayHi = function() {
+    alert(this.nodeName);                       //BODY
+ };
+document.body.SayHi();
+
+</script>   -->
+                                                                          <!--this code show to us all elements that was used this in HTML-->
+
+<!--
+<script>
+document.body.custom=5;
+var list= [];
+for(var key in document.body) {
+    list.push(key)}
+    alert(list.join('\n'))
+        </script>
+-->
+
+</body>
+</html>
