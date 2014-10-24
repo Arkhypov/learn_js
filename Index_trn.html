@@ -1,29 +1,67 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title></title>
+    <title>learn_js_codeacademy</title>
     <noscript>If you see this message, so turn off show javascripts in your own browser</noscript>
     <!-- <script type="text/javascript" src="js/tutorial.js"> </script> -->  <!-- this is hidden javascript -->
-    <!-- <script type="text/javascript" src="js/clock.js"> </script> -->   <!-- this is hidden javascript, show how work the clock.js-->
-    <!-- <script type ="text/javascript" src="js/actions.js"></script> -->    <!--this is real script (обработчик ссылок) -->
-    <!-- <script type ="text/javascript" src="js/rollover.js"></script> -->  <!--this is script of rollover -->
+    <script type="text/javascript" src="js/clock.js"> </script>     <!-- this is hidden javascript, show how work the clock.js-->
+    <script type ="text/javascript" src="js/actions.js"></script>     <!--this is real script (обработчик ссылок) -->
+    <script type ="text/javascript" src="js/rollover.js"></script>   <!--this is script of rollover -->
      <script type ="text/javascript" src="js/tutorial_1.js"></script>      <!-- learn.javascript.com -->
-    <!-- <script>window.parent.location.href='http://hacker.com';</script>  --> <!-- make redirection to hacker.com -->
+    <!-- <script>window.parent.location.href='http://google.com';</script>  --> <!-- make redirection to hacker.com -->
 
 </head>
 
 <body>
+
 <!-- <script type ="text/javascript" src="js/tutorial.js"></script> -->   <!--this is real script -->
+
+
+
+                                                            <!--initialization of scripts that over write themselves-->
+<script>
+function addListener(obj, type, listener) {
+    if (obj.addEventListener) {
+        obj.addEventListener(type, listener, false);
+        return true;
+} else if(obj.attachEvent) {
+    obj.attachEvent('on' + type, listener);
+        return true;
+}
+return false;
+
+}
+
+
+addListener(window, 'load', function() {
+
+    startTime();
+    initTime();
+    initDate();
+    addLink();
+});
+
+addListener(window, 'load', function() {
+// инициализация второго скрипта
+});
+
+
+</script>
+
+
+
+
 
 <!--simple creation of clock in javascript -->
 
-<!--
+
 <div id="clock">
     <div id="Date" style="text-align: center;"></div>
-    <div id="Time" style="text-align: center;">4545</div>
+    <div id="Time" style="text-align: center;"></div>
+
 </div>
--->
+
 
 
 <!--  realisation of table-->
@@ -83,29 +121,13 @@
     </li>
 -->
 
-<!-- realization of rollover  -->
 
-<!--
-<img id="roll" src="./img/straight.png">
--->
 
 <!-- realization of adding DOM element -->
 
 
 
-<!--<form>
-<label>please input new url
-    <br>
-    <input type="text"  size="45" id="newUrl">
-</label>
-<br>
-    <input type="button" value="add" id="add" >
-    <input type="button" value="delete" id="delete" >
-</form>
 
-<div id="links">
-
-</div>-->
                                           <!--Here will be examples of code from android app. Tutorial_1.js included.-->
                                           <!--Example of greeting according to date of today-->
                                           <!--Example recognizing day of today with using case statement-->
@@ -122,7 +144,48 @@
    <p id="day"> </p>
       <p id="dem"> </p>
     <p id="num"> </p>
-    <p id="head"> </p>
+    <p id="head">1
+        <script>
+        var userChoice = prompt("Do you choose rock, paper or scissors?");
+        var computerChoice = Math.random();
+        if (computerChoice < 0.34) {
+        computerChoice = "rock";
+        } else if(computerChoice <= 0.67) {
+        computerChoice = "paper";
+        } else {
+        computerChoice = "scissors";
+        } document.getElementById('head').innerHTML="Computer chooses: " + computerChoice +"<br>";
+        if (userChoice==="scissors" ^ userChoice==="rock" ^ userChoice==="paper"){
+        function compare(choice1,choice2){
+        if(choice1===choice2){
+
+        return document.getElementById('head').innerHTML+="The result is a tie!";
+        } else if(choice1==="rock"){
+        if (choice2==="scissors")
+        return document.getElementById('head').innerHTML+="rock wins";
+        else
+        return document.getElementById('head').innerHTML+="paper wins";
+        } else if(choice1==="paper"){
+        if (choice2==="scissors")
+        return document.getElementById('head').innerHTML+="scissors wins";
+        else
+        return document.getElementById('head').innerHTML+="paper wins";
+        }
+        else if(choice1==="scissors"){
+        if (choice2==="rock"){
+        return document.getElementById('head').innerHTML+="rock win";
+        }
+        else{
+        return document.getElementById('head').innerHTML+="scissors wins";
+        }
+        }
+        }
+        }
+        else{ console.log("wrong choice, please choose something listed higher")
+        }
+        compare(userChoice,computerChoice);
+    </script>
+    </p>
     <div id="copy" style="float:right">                                                              <!--Example how to copy text&ndash-->
     <input type="text" style="color: #000000; background-color: gray" id="field1" value="Hello World">
     <input type="text" style="color: #000000; background-color: gray" id="field2" value="">
@@ -178,6 +241,105 @@
         </script>
 
 </div>
+                                                           <!--here will be 4 examples from another Android app -->
+                                                           <!--example of the timer in the edit-->
+                                                           <!-- example of complicated timer with ability to stop it -->
+<div id="timer" style="float:left">
+    <form>
+    <script>
+       function timer(){
+           var x=document.getElementById('txt');
+           var t1=setTimeout(function(){x.value="2 second"}, 2000);
+           var t2=setTimeout(function(){x.value="4 second"}, 4000);
+           var t3=setTimeout(function(){x.value="6 second"}, 6000);
+           var t4=setTimeout(function(){x.value="8 second"}, 8000);
+           var t5=setTimeout(function(){x.value="9 second"}, 9000);
+           var t6=setTimeout(function(){x.value="press button again"}, 10000);
+       }
+    </script>
+
+
+    <input type="text" id="txt">
+    <input type="button" id="btn" value="Please press the button to display the timer" onclick="timer()">
+    </form>
+
+
+           <!-- some complicated function with using recursion, just read it and you will understand how it works -->
+    <p>
+    <form style="float:left">
+        <script>
+            var c=0;
+            var t=0;
+            var time_is_on=0;
+            function timedCount(){
+             document.getElementById('text').value=c;
+                c+=1;
+                t=setTimeout(function(){timedCount()},1000);
+            }
+            function doTimer()
+            {
+                if (!timer_is_on){
+                    timer_is_on=1;
+                    timedCount();
+                }
+            }
+            function stopCount(){
+                clearTimeout(t);
+                timer_is_on=0;
+            }
+            </script>
+        <input type="text" id="text" />
+        <input type="button" value="Stop count!" onclick="stopCount()">
+        <input type="button" value="Count!" onclick="doTimer()">
+        </form>
+        <form style="float:right">
+           <script>
+           function startTime(){
+           var today=new Date();
+           var h=today.getHours();
+           var m=today.getMinutes();
+           var s=today.getSeconds();
+               //adding 0 to m and s
+           var m = checkTime(m);
+           var s = checkTime(s);
+           document.getElementById('tm').innerHTML=h+":"+m+":"+s;
+           t=setTimeout(function(){startTime()},500);
+           }
+               function checkTime(i){
+                   if(i<10){
+                       i="0"+ i;
+                   }
+               return i;
+               }
+           </script>
+
+           </form>
+    <!-- realization of rollover  -->
+
+    <div id="rollover">
+        <p style="float:right; margin-right: 115px; margin-top: -31px;"><b>Realisation of rollover:</b></p>
+        <img id="roll" style="width:15%; margin-left: 741px;" src="./img/straight.png">
+    </div>
+
+    <form>
+        <label>please input new url
+            <br>
+            <input type="text"  size="45" id="newUrl">
+        </label>
+        <br>
+        <input type="button" value="add" id="add" >
+        <input type="button" value="delete" id="delete" >
+    </form>
+
+    <div id="links">
+
+    </div>
+
+
+</div>
+
+
+
 
 
 
@@ -238,7 +400,7 @@
     document.body.innerHTML += "How you doing?"
     </script>-->
 
-                                                                            <!--here will be something like comment like comment-->
+                                                               <!--here will be something like comment like comment-->
 
 
  <!--<input type="text" value="Enter your comment"  id="txt" onblur="if (this.value == '') {this.value = 'Enter your comment'}" onfocus="if (this.value == 'Enter your comment') {this.value = ''}" cols="25" rows="5">
@@ -250,7 +412,7 @@
 </div>-->
 
 
-                                                                            <!--example of using objects in document.body-->
+                                                                   <!--example of using objects in document.body-->
 <!--    <script>
 document.body.MyData={
     name:'Dasha',
@@ -275,6 +437,8 @@ for(var key in document.body) {
     alert(list.join('\n'))
         </script>
 -->
+
+<div id="tm" style=" margin-bottom: -6px; margin-left: 95%; margin-top: 37%;" onload="startTime()">smth  </div>
 
 </body>
 </html>

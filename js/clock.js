@@ -8,10 +8,12 @@
 
 //clock
 
+/*
 window.onload = function() {
     initTime();
     initDate();
 };
+*/
 
 function initDate() {
     var now = new Date();

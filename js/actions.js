@@ -11,10 +11,16 @@
 }
 
 //window.onload = initLinks;
-window.onload = function(){
+
+
+window.onload =addLink();
+
+
+    function addLink(){
     document.getElementById('add').onclick = add;
     document.getElementById('delete').onclick = deleteNode;
-};
+}
+
 
 //adding links
 
