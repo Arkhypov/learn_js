@@ -625,20 +625,31 @@ var filtered = filterRange(arr,1,4);
                                     /*function that show current day according to your date in the system, excellent example with  switch statement*/
                                     /*here will be a block from my Android app*/
    function advice(){
-   var x="";
-   var hr = new Date().getHours();
-   var min = new Date().getMinutes();
-   var sec = new Date().getSeconds();
-    if (hr<11){
-        x= "Good morning guy" + hr + ":" + min + ":" + sec;
-    }  else if (hr>11 && hr<16){
-        x= "Good midday guy" + hr + ":" + min + ":" + sec;
+   var x = "";
+   var today = new Date();
+   var hr = today.getHours();
+   var min = today.getMinutes();
+   var sec = today.getSeconds();
+       var min=checkTime(min);
+       var sec=checkTime(sec);
+   if (hr < 11){
+        x= "<b>Good morning guy </b>" + hr + ":" + min + ":" + sec
+    }  else if (hr > 11 && hr < 16){
+        x= "<b>Good midday guy </b>" + hr + ":" + min + ":" + sec
     }
         else if (hr>=16){
-        x= "Good evening guy" + hr + ":" + min + ":" + sec;
+        x= "<b>Good evening guy </b>" + hr + ":" + min + ":" + sec
     }
     document.getElementById('dem').innerHTML = x;
+       t=setTimeout(function (){advice()},500);
 }
+    function checkTime(i){
+        if(i<10){
+            i="0"+i;
+        }
+        return i;
+    }
+
 
 function day(){
     var x="";
@@ -695,6 +706,7 @@ function heading(){
                                                                      //excellent presentation of game from codeacademy
 
     //my comment
+/*
 var userChoice = prompt("Do you choose rock, paper or scissors?");
 var computerChoice = Math.random();
 if (computerChoice < 0.34) {
@@ -703,29 +715,29 @@ if (computerChoice < 0.34) {
     computerChoice = "paper";
 } else {
     computerChoice = "scissors";
-} console.log("Computer: " + computerChoice);
+} document.getElementById('head').innerHTML="Computer: " + computerChoice;
 if (userChoice==="scissors" ^ userChoice==="rock" ^ userChoice==="paper"){
 function compare(choice1,choice2){
     if(choice1===choice2){
 
-        return console.log("The result is a tie!");
+        return document.getElementById('head').innerHTML+="The result is a tie!";
     } else if(choice1==="rock"){
         if (choice2==="scissors")
-            return console.log("rock wins");
+            return document.getElementById('head').innerHTML+="rock wins";
         else
-            return console.log("paper wins");
+            return document.getElementById('head').innerHTML+="paper wins";
     } else if(choice1==="paper"){
         if (choice2==="scissors")
-            return console.log("scissors wins");
+            return document.getElementById('head').innerHTML+="scissors wins";
         else
-            return "paper wins";
+            return document.getElementById('head').innerHTML+="paper wins";
     }
     else if(choice1==="scissors"){
         if (choice2==="rock"){
-            return console.log("rock win");
+            return document.getElementById('head').innerHTML+="rock win";
         }
         else{
-            return console.log("scissors wins");
+            return document.getElementById('head').innerHTML+="scissors wins";
         }
         }
 }
@@ -733,6 +745,7 @@ function compare(choice1,choice2){
 else{ console.log("wrong choice, please choose something listed higher")
 }
 compare(userChoice,computerChoice);
+*/
 
 
 
