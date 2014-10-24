@@ -40,6 +40,7 @@ addListener(window, 'load', function() {
     initTime();
     initDate();
     addLink();
+    checkCookie();
 });
 
 addListener(window, 'load', function() {
@@ -59,7 +60,6 @@ addListener(window, 'load', function() {
 <div id="clock">
     <div id="Date" style="text-align: center;"></div>
     <div id="Time" style="text-align: center;"></div>
-
 </div>
 
 
@@ -330,6 +330,47 @@ addListener(window, 'load', function() {
         <input type="button" value="add" id="add" >
         <input type="button" value="delete" id="delete" >
     </form>
+                                                                    <!--Realization of alert that take your cookie-->
+                                                                    <!--Don`t understand how this code works-->
+                                                                      <!--Разберись в этой дряни в декабре! -->
+    <div id ="cookie">
+     <script>
+         /*
+
+         function getCookies(){
+             var i, x, y,ARRcookies =document.cookie.split(";");        //это разбитие масива на разные части?
+             for(i=0;i<ARRcookies.length;i++){
+                 x=ARRcookies[i].substr(ARRcookies[i].indexOf("="));
+                 y=ARRcookies[i].substr(ARRcookies[i].indexOf("=")+1);
+                 x= x.replace(/^\s+|\s+$/g,"");               //что это такое и как оно работает?
+                 if (x==c_name){
+                     return unescape(y);
+                 }
+             }
+         }
+         function setCookie(c_name, value, exdays){                           //а это что такое?
+             var today=new Date();
+             today.setDate(today.getDate()+exdays);
+             var c_value=escape(value) + ((exday==null) ? "" :"; expires="+exdate.toUTCString());
+             document.cookie=c_name+"="+c_name;
+         }
+         function checkCookie(){
+             var username=getCookies("username");
+             if (username!=null && username!=""){
+                 alert("Welcome again"+username)
+             } else{
+                 username=prompt("Please enter your name","");
+                 if(username!=null &&username!=""){
+                     setCookie("username",username,365);
+                 }
+             }
+         }
+
+         */
+     </script>
+
+
+    </div>
 
     <div id="links">
 
