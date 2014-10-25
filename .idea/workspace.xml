@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index_trn.html" afterPath="$PROJECT_DIR$/Index_trn.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/actions.js" afterPath="$PROJECT_DIR$/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/clock.js" afterPath="$PROJECT_DIR$/js/clock.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="start.iws" />
@@ -14,12 +9,12 @@
     <file path="/index.html" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1392675122200" ignored="false" />
     <file path="/styles.css" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1392677038067" ignored="false" />
     <file path="/actions.js" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1414109185504" ignored="false" />
-    <file path="/Index_trn.html" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1414115661423" ignored="false" />
+    <file path="/Index_trn.html" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1414179005346" ignored="false" />
     <file path="/tutorial_1.js" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1414114798934" ignored="false" />
     <file path="/a.dummy" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1396025577103" ignored="false" />
     <file path="/tutorial.js" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1412192311026" ignored="false" />
     <file path="/screen.css" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1412218580839" ignored="false" />
-    <file path="/Dummy.txt" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1414116024109" ignored="false" />
+    <file path="/Dummy.txt" changelist="96f602d8-32ef-47fa-bf80-e9a0b0bd47a8" time="1414179413786" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,9 +40,7 @@
         <entry file="file://$PROJECT_DIR$/js/clock.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,7 +75,7 @@
       <file leaf-file-name="Index_trn.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index_trn.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="156" column="95" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.629703">
+            <state line="42" column="6" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-8.992453">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -269,7 +262,19 @@
       <created>1414116030412</created>
       <updated>1414116030412</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new commit">
+      <created>1414116086370</created>
+      <updated>1414116086370</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new commit">
+      <created>1414179158664</created>
+      <updated>1414179158664</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new commit">
+      <created>1414179418528</created>
+      <updated>1414179418528</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -440,17 +445,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/rollover.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="34" selection-start="517" selection-end="517" vertical-scroll-proportion="0.44815466">
-          <folding />
-        </state>
+        <state line="15" column="34" selection-start="517" selection-end="517" vertical-scroll-proportion="0.44815466" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/clock.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="24" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,7 +478,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Index_trn.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="156" column="95" selection-start="4654" selection-end="4654" vertical-scroll-proportion="0.629703">
+        <state line="42" column="6" selection-start="1669" selection-end="1669" vertical-scroll-proportion="-8.992453">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
